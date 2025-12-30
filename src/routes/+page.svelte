@@ -1,2 +1,13 @@
-    <h1 class="my-20 mx-40 font-bold">Welcome to SvelteKit</h1>
-    <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import { skills } from '$lib/data/skills';
+</script>
+
+<div class="container">
+	<h2>Skills</h2>
+
+	<ul class="list-group">
+		{#each skills as skill}
+			<li class="list-group-item">{skill}</li>
+		{/each}
+	</ul>
+</div>

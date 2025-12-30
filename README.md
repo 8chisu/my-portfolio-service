@@ -2,7 +2,7 @@
 
 The web application that demonstrates my skill set in web-front-end.
 I selected "Svelte" as the main frontend framework on this project.  
-It helps me to create a fast and efficient web application. 
+It helps me to create a fast and efficient web application.
 Also, to learn how to develop a web application.
 
 ## Technology
