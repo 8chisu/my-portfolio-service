@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Zen+Maru+Gothic&display=swap');
 @import 'tailwindcss';
-@plugin '@tailwindcss/forms';
-@plugin '@tailwindcss/typography';
+
+@layer base {
+	html {
+        @apply bg-amber-50
+	}
+}
+
+@theme {
+	--font-code: 'Fira Code', system-ui, monospace;
+	--font-body: 'Zen Maru Gothic', system-ui, sans-serif;
+	--font-footer: 'Zen Maru Gothic', sans-serif;
+}
+
