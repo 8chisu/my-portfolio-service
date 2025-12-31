@@ -11,10 +11,8 @@
 			本サイトは学習および技術検証を目的として制作されています。
 		</p>
 		<p>
-		    <span class="en">
+			<span class="en">
 				This website is created for learning and technical demonstration purposes.
 			</span>
 		</p>
-		<p class="name text-xs">&copy; {yearText} by 8chisu. All rights reserved.</p>
-	</div>
-</footer>
+		<p class="name text-xs">&copy; {yearText} by 8chisu. All rights reserved.</p> </div> </footer>

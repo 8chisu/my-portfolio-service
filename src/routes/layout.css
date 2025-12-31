@@ -3,7 +3,7 @@
 
 @layer base {
 	html {
-        @apply bg-amber-50
+		@apply bg-amber-50;
 	}
 }
 
@@ -12,4 +12,3 @@
 	--font-body: 'Zen Maru Gothic', system-ui, sans-serif;
 	--font-footer: 'Zen Maru Gothic', sans-serif;
 }
-

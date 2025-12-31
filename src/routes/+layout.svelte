@@ -7,13 +7,13 @@
 	let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon}></svelte:head>
+<svelte:head><link rel="icon" href={favicon} /></svelte:head>
 <div>
-    <Headeer />
-    <main class="flex min-h-screen flex-col bg-amber-100">
-        <div class="flex-1 bg-white">
-		{@render children()}
-	</div>
-	<Footer />
-    </main>
+	<Headeer />
+	<main class="flex min-h-screen flex-col bg-amber-100">
+		<div class="flex-1 bg-white">
+			{@render children()}
+		</div>
+		<Footer />
+	</main>
 </div>
